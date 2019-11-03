@@ -4,7 +4,7 @@ package factorymethod;
 public class TestPizzaStore {
 
     public static void main(String... args){
-        PizzaStore store = new NYPizzaStore(new SimpleNYPizzaFactory());
+       /* PizzaStore store = new NYPizzaStore(new SimpleNYPizzaFactory());
 
         Pizza pizza =store.orderPizza(Pizza.CHEESE);
 
@@ -16,7 +16,7 @@ public class TestPizzaStore {
         PizzaStore ChicagoStore = new PizzaStore(new SimpleChicagoPizzaFactory());
 
         pizza =store.orderPizza(Pizza.CHEESE);
-
+*/
         //....
     }
 }
